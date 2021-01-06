@@ -1,0 +1,14 @@
+.banner {
+  background-color: $bg-banner;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  .banner__title {
+    color: $text-white;
+  }
+  .banner__subtitle {
+    color: $text-white;
+    margin-top: 0;
+  }
+}

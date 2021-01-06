@@ -1,0 +1,13 @@
+main {
+  @include respond-to("large") {
+    display: flex;
+    .blog {
+      order: 2;
+      width: 70%;
+    }
+    .sidebar {
+      order: 1;
+      width: 30%;
+    }
+  }
+}

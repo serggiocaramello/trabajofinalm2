@@ -1,1 +1,17 @@
+//colors
+$bg-footer: rgb(213, 213, 213);
+$bg-sidebar: rgb(233, 233, 233);
+$bg-banner: skyblue;
+$bg-navbar: rgb(41, 41, 41);
 $text-white: #fff;
+$text-color: black;
+
+// Breakpoints map
+// @prop {String} keys - Keys are identifiers mapped to a given length
+// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  "small": 360px,
+  "medium": 768px,
+  "large": 1024px,
+  "xlarge": 1440px,
+) !default;
