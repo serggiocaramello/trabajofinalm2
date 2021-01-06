@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: $bg-sidebar;
+
+  .sidebar__title {
+    @extend h2;
+    &--post {
+      margin-top: 2em;
+    }
+  }
+
+  .sidebar__mini-img {
+    margin-bottom: 1em;
+  }
+}

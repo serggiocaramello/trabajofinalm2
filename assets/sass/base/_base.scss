@@ -1,14 +1,37 @@
-.fondo-oscuro {
-  background-color: rgb(39, 3, 107);
-}
-.texto-gris {
-  color: rgb(80, 80, 80);
+body {
+  box-sizing: border-box;
 }
 
-.fondo-azul {
-  background-color: blue;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.texto-blanco {
-  color: $text-white;
+li {
+  list-style: none;
+}
+
+a {
+  color: $text-color;
+}
+
+.navbar {
+  a {
+    text-decoration: none;
+    color: $text-white;
+  }
+}
+
+.container {
+  padding: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
