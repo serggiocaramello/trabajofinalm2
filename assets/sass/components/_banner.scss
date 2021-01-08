@@ -6,9 +6,16 @@
   height: 300px;
   .banner__title {
     color: $text-white;
+    font-size: 2em;
+    @include respond-to("medium") {
+      font-size: 3em;
+    }
   }
   .banner__subtitle {
     color: $text-white;
     margin-top: 0;
+    @include respond-to("medium") {
+      font-size: 1.5em;
+    }
   }
 }
