@@ -516,11 +516,24 @@ h4 {
 
 .banner .banner__title {
   color: #fff;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 768px) {
+  .banner .banner__title {
+    font-size: 3em;
+  }
 }
 
 .banner .banner__subtitle {
   color: #fff;
   margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .banner .banner__subtitle {
+    font-size: 1.5em;
+  }
 }
 
 header .navbar {
