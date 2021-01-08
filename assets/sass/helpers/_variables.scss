@@ -1,10 +1,17 @@
 //colors
-$bg-footer: rgb(213, 213, 213);
-$bg-sidebar: rgb(233, 233, 233);
-$bg-banner: skyblue;
-$bg-navbar: rgb(41, 41, 41);
+$bg-footer: #978f8c;
+$bg-sidebar: #fdebb4;
+$bg-banner: #6e3a3c;
+$bg-navbar: #978f8c;
 $text-white: #fff;
-$text-color: black;
+$text-color: #4e4146;
+$facebook: #3b5999;
+$twitter: #55acee;
+$instagram: #e4405f;
+
+//Social media variables
+$social-icon-size: 1.5rem;
+$social-icon-container: 2.5rem;
 
 // Breakpoints map
 // @prop {String} keys - Keys are identifiers mapped to a given length

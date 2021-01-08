@@ -5,6 +5,7 @@
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #4e4146;
 }
 
 ul {
@@ -18,7 +19,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #4e4146;
 }
 
 .container, .container-fluid {
@@ -390,7 +391,7 @@ h1 {
   font-weight: 700;
 }
 
-h2, .sidebar .sidebar__title, .footer .footer__text {
+h2, .sidebar .sidebar__title {
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -405,7 +406,7 @@ h4 {
 }
 
 .sidebar {
-  background-color: #e9e9e9;
+  background-color: #fdebb4;
 }
 
 .sidebar .sidebar__title--post {
@@ -417,7 +418,68 @@ h4 {
 }
 
 .footer {
-  background-color: #d5d5d5;
+  background-color: #978f8c;
+}
+
+.footer .footer__text {
+  font-size: 0.875em;
+  color: #fff;
+}
+
+.footer .footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer__link {
+  font-size: 1.5rem;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer .footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer .footer__link[class*="facebook"] {
+  background-color: #3b5999;
+  border: 3px solid #3b5999;
+}
+
+.footer .footer__link[class*="facebook"]:hover {
+  background-color: #fff;
+  color: #3b5999;
+}
+
+.footer .footer__link[class*="twitter"] {
+  background-color: #55acee;
+  border: 3px solid #55acee;
+}
+
+.footer .footer__link[class*="twitter"]:hover {
+  background-color: #fff;
+  color: #55acee;
+}
+
+.footer .footer__link[class*="instagram"] {
+  background-color: #e4405f;
+  border: 3px solid #e4405f;
+}
+
+.footer .footer__link[class*="instagram"]:hover {
+  background-color: #fff;
+  color: #e4405f;
 }
 
 .blog .post {
@@ -438,7 +500,7 @@ h4 {
 }
 
 .banner {
-  background-color: skyblue;
+  background-color: #6e3a3c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,19 +524,22 @@ h4 {
 }
 
 header .navbar {
-  background-color: #292929;
+  background-color: #978f8c;
   text-align: center;
+}
+
+header .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5em 1.5em;
 }
 
 @media screen and (min-width: 768px) {
   header .navbar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -498,7 +563,16 @@ header .navbar li:last-child {
 }
 
 header .navbar a {
+  display: block;
   color: #fff;
+  padding: 1em 0.5em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .navbar a:hover {
+  background-color: #fff;
+  color: #978f8c;
 }
 
 @media screen and (min-width: 1024px) {

@@ -18,3 +18,14 @@
           + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
+
+// mixin de iconos
+@mixin icon-color($color) {
+  background-color: $color;
+  border: 3px solid$color;
+
+  &:hover {
+    background-color: $text-white;
+    color: $color;
+  }
+}
